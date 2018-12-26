@@ -29,9 +29,10 @@ function incrementVariable() {
 function doWhileLoop(name){
   
   do {
-  console.log("doo-bee-doo-bee-doo");
+  delete name[i];
   incrementVariable();
-} while (i < 5);
+  
+} while (array.length > 0 && incrementVariable());
   
 }
 
