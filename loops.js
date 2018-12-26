@@ -26,14 +26,14 @@ function incrementVariable() {
   i = i + 1;
 }
 
-function doWhileLoop(name){
+function doWhileLoop(array){
   
   do {
-  name.shift;
+  array.shift;
   incrementVariable();
   
-} while (name.length > 0 && incrementVariable());
-  return name
+} while (array.length > 0 && incrementVariable());
+  return array
 }
 
 
