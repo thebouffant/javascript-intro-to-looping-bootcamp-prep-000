@@ -29,7 +29,7 @@ function incrementVariable() {
 function doWhileLoop(array){
   
   do {
-  array.shift;
+  array.shift();
   incrementVariable();
   
 } while (array.length > 0 && incrementVariable());
