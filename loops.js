@@ -29,11 +29,11 @@ function incrementVariable() {
 function doWhileLoop(name){
   
   do {
-  delete name[i];
+  name.pop;
   incrementVariable();
   
-} while (array.length > 0 && incrementVariable());
-  
+} while (name.length > 0 && incrementVariable());
+  return name
 }
 
 
